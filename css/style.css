@@ -111,26 +111,23 @@ button{
     background-color: #0061ff;
     padding: 0.3rem 1rem;
 }
-main{
+section.bussines-box{
     max-width: 780px;
     background-color: darkred;
-    height: 1000px;
-}
-section.bussines-box{
-    background-color: #0061ff;
-    padding: 4rem 0;
-    width: 80%;
-    height: 600px;
+    height: 1200px;
+    padding: 6rem 0;
 }
 div.bussines-top{
     background-color: peachpuff;
     width: 100%;
-    height: 70px;
+    height: 100px;
+    border: 1.5rem solid darkred;
 }
 div.bussines-checkbox{
     background-color: rgb(76, 10, 141);
     width: 100%;
     height: 100px;
+    border: 1.5rem solid darkred;
 }
 div.bussines-column-wrapper{
     display: flex;
@@ -140,10 +137,21 @@ div.bussines-column{
     width: calc(100% / 3);
     height: 700px;
     background-color: cornflowerblue;
-    border: 15px solid darkred;
+    border: 1.5rem solid darkred;
 }
 div.upper-column{
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: aqua;
+}
+div.bussines-footer{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(236, 155, 33);
+    border: 1.5rem solid darkred;
+}
+div.bussines-footer>div{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 0, 0)
 }
