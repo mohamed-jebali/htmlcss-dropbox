@@ -194,7 +194,6 @@ div.bussines-footer>div{
     flex-wrap: wrap;
 }
 .box-operation{
-    background-color: #0061ff;
     width: calc(100% / 3);
     border: 1.5rem solid white;
     font-size: 0.6rem;
