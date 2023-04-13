@@ -18,6 +18,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 .flex-center{
     display: flex;
     align-items: center;
@@ -204,4 +208,82 @@ div.bussines-footer>div{
 .step-title{
     font-size: 1rem;
     padding-bottom: 1.1rem;
+}
+.dropbox-team{
+    width: 70%;
+    border: 1.5rem solid white;
+    padding-top: 3.8rem;
+}
+.team-numbers>h1{
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}
+.link-about-clients a{
+    text-decoration: underline;
+    color: #406af0;
+}
+.team-boxes{
+    max-width: 100%;
+    background-color: yellowgreen;
+    height: 400px;
+    display: flex;
+}
+.left-team-boxes,.right-team-boxes,.mid-team-boxes{
+    width: calc(100% / 3);
+    height: 100%;
+}
+.left-team-boxes{
+    background-color: chartreuse;
+}
+div.designit{
+    background-color: #a2d39b;
+    border: 8px solid #d1e9cd;
+}
+div.arizona{
+    background-color: #61082b;
+}
+div.florida{
+    background-color: #0093ce;
+}
+div.topps{
+    background-color: #fe1b1b;
+}
+div.world-bicyle{
+    background-color: #d5001e;
+}
+div.hearst-corp{
+    background-color: #b4d0e7;
+}
+div.lonely-planet{
+    background-color: #0d2481;
+}
+div.clearchannel{
+    background-color: #ffd82f;
+}
+.mid-team-boxes{
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+.mid-team-boxes>img{
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.mid-team-boxes>p{
+    padding-bottom: 2rem;
+}
+.right-team-boxes{
+    background-color: rgb(65, 159, 241);
+}
+.team-member{
+    width: 50%;
+    height: 50%;
+    background-color: darkblue;
+    position: relative;
+}
+.team-member>img{
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    filter: invert(1);
 }
