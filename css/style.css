@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     font-family:'Open Sans', sans-serif;
     color: black;
@@ -254,11 +257,20 @@ div.designit{
 div.arizona{
     background-color: #61082b;
 }
+div.arizona>img{
+    height: 85px;
+}
 div.florida{
     background-color: #0093ce;
 }
+div.florida>img{
+    height: 25px;
+}
 div.topps{
     background-color: #fe1b1b;
+}
+div.topps>img{
+    height: 50px;
 }
 div.world-bicyle{
     background-color: #d5001e;
@@ -266,11 +278,20 @@ div.world-bicyle{
 div.hearst-corp{
     background-color: #b4d0e7;
 }
+div.hearst-corp>img{
+    height: 10px;
+}
 div.lonely-planet{
     background-color: #0d2481;
 }
+div.lonely-planet>img{
+    height: 55px;
+}
 div.clearchannel{
     background-color: #ffd82f;
+}
+div.clearchannel>img{
+    height: 70px;
 }
 .mid-team-boxes{
     background-color: #f5f5f5;
@@ -278,10 +299,15 @@ div.clearchannel{
 }
 .mid-team-boxes>img{
     height: 50px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 .mid-team-boxes>p{
+    font-size: 0.75rem;
     padding-bottom: 2rem;
+}
+.mid-team-boxes :nth-child(2){
+    padding-top: 2rem;
+    border-top: 1px solid #d7d7da;
 }
 .right-team-boxes{
     background-color: rgb(65, 159, 241);
@@ -292,10 +318,11 @@ div.clearchannel{
     position: relative;
 }
 .team-member>img{
-    height: 15%;
+    height: 35px;
     position: absolute;
     left: 50%;
     top: 50%;
+    transform: translate(-50% , -50%);
     filter: invert(1);
 }
 .dropbox-company{
