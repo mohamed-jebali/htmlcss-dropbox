@@ -129,16 +129,20 @@ main{
     padding: 6rem 0;
 }
 div.bussines-top{
-    background-color: peachpuff;
+    width: 100%;
+    border: 1.5rem solid white;
+    padding: 0.5rem 0;
+}
+div.bussines-top>h2{
+    font-size: 1.8rem;
+}
+div.bussines-checkbox{
     width: 100%;
     height: 100px;
     border: 1.5rem solid white;
 }
-div.bussines-checkbox{
-    background-color: rgb(76, 10, 141);
-    width: 100%;
-    height: 100px;
-    border: 1.5rem solid white;
+form>span{
+    padding-right: 2.5rem;
 }
 div.bussines-column-wrapper{
     display: flex;
@@ -176,7 +180,6 @@ div.bussines-footer>div{
 .image-partner{
     width: 55%;
     height: 100%;
-    background-color: chartreuse;
 }
 .text-partner{
     width: 45%;
