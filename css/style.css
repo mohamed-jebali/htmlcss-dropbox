@@ -287,3 +287,76 @@ div.clearchannel{
     top: 40%;
     filter: invert(1);
 }
+.dropbox-company{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+.wrapper-dropbox-company{
+    max-width: 780px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+.dropbox-company-title{
+    padding: 2rem;
+    width: 70%;
+}
+.dropbox-company-title>h1{
+    color:#5c0022;
+    font-size: 1.4rem;
+}
+.start-button-free{
+    width: 30%;
+    text-align: right;
+}
+.questions{
+
+}
+.questions-wrapper{
+    max-width: 780px;
+    padding: 6rem 0;
+    
+}
+.questions-wrapper>h2{
+    padding-bottom: 2.5rem;
+}
+.questions-wrapper>p{
+    font-weight: bold;
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questions-wrapper p>i{
+    padding-right: 1.5rem;
+}
+footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    padding: 4rem 0;
+}
+.footer-wrapper{
+    max-width: 1000px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-column{
+    background-color: #61082b;
+    border: 1px solid white;
+    height: 100%;
+    width: 20%;
+}
+.footer-bottom{
+    width: 100%;
+    height: 100px;
+    /* background-color: #a2d39b; */
+    padding: 3rem 0;
+}
+.footer-bottom>div{
+    max-width: 1000px;
+    border-top: 1px solid white;
+    color: white;
+    padding: 2rem 0;
+}
