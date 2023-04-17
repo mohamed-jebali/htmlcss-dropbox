@@ -292,6 +292,9 @@ div.bussines-footer>.bussines-footer-lower{
     padding-bottom: 1.4rem;
     padding-right: 2rem;
 }
+.text-partner>h2{
+    margin-bottom: 0.8rem;
+}
 .image-partner>img{
     height: 100%;
 }
@@ -451,7 +454,7 @@ div.clearchannel>img{
 }
 .questions-wrapper>p{
     font-weight: bold;
-    padding: 1.2rem 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
