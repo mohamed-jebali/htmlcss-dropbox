@@ -82,7 +82,7 @@ h1{
     height: 350px;
 }
 .jumbotron-text{
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,7 +111,7 @@ h1{
     padding-bottom: 0.8rem;
 }
 .jumbotron-image{
-    width: 70%;
+    width: 65%;
 }
 .jumbotron-image>img{
     height: 350px;
@@ -513,6 +513,6 @@ footer{
     position: absolute;
 }
 .footer-bottom>div{
-    color: white;
+    color: #534b42;
     padding: 2rem 0;
 }
